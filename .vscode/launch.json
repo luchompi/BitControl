@@ -1,0 +1,35 @@
+{
+  // Use IntelliSense para saber los atributos posibles.
+  // Mantenga el puntero para ver las descripciones de los existentes atributos.
+  // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "🚀 launch server",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\manage.py",
+      "args": ["runserver"],
+      "django": true,
+      "autoStartBrowser": false
+    },
+    {
+      "name": "🏗️ make:migrations",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\manage.py",
+      "args": ["makemigrations"],
+      "django": true,
+      "autoStartBrowser": false
+    },
+    {
+      "name": "💾 migrate",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}\\manage.py",
+      "args": ["migrate"],
+      "django": true,
+      "autoStartBrowser": false
+    }
+  ]
+}
