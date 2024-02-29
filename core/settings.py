@@ -31,13 +31,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.staticfiles',
     # 3rdParyApps
     'corsheaders',
     'rest_framework',
     'rest_framework_simplejwt',
     'djoser',
     'whitenoise',
+    # LocalApps
+    'apps.accounts',
 
 ]
 
@@ -195,6 +196,8 @@ DJOSER = {
     }
 }
 
+# AuthUserConfig
+AUTH_USER_MODEL = 'accounts.UserAccount'
 
 # Email config
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
