@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'whitenoise',
     # LocalApps
     'apps.accounts',
+    'apps.Inventario',
 
 ]
 
