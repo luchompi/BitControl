@@ -1,3 +1,7 @@
 {
-  "conventionalCommits.scopes": ["Ver. 0.1"]
+  "conventionalCommits.scopes": ["Ver. 0.1"],
+  "gitlens.graph.dimMergeCommits": true,
+  "gitlens.graph.showRemoteNames": true,
+  "gitlens.views.repositories.includeWorkingTree": true,
+  "gitlens.views.repositories.showIncomingActivity": true
 }
