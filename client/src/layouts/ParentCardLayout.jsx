@@ -22,7 +22,9 @@ const ParentCardLayout = ({ header, title, icon, tools, component }) => {
               <PlayOnce ICON={icon} />
             </div>
             <div className="col">
-              <div className="card-title">{title}</div>
+              <div className="card-title">
+                <h2>{title}</h2>
+              </div>
             </div>
           </div>
           {component}
